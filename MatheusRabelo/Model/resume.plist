@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>facebookId</key>
+	<string>100002981916017</string>
+	<key>facebookURL</key>
+	<string>FaceMatheusR</string>
+	<key>linkedinId</key>
+	<string>175673852</string>
+	<key>linkedinURL</key>
+	<string>omatheusr</string>
+	<key>github</key>
+	<string>omatheusr</string>
+	<key>name</key>
+	<string>Matheus Oliveira Rabelo</string>
+	<key>birthday</key>
+	<date>1995-06-30T14:20:00Z</date>
+	<key>email</key>
+	<string>matheus.oliveira.rabelo@gmail.com</string>
+	<key>phone</key>
+	<string>+55 51 9228-6251</string>
+	<key>longDescription</key>
+	<string>Mobile development. I strive to work in meaningful projects that can change people’s lives, allowing me to contribute with my knowledge while also evolving as a professional.</string>
+	<key>shortDescription</key>
+	<string>Computer Science Undergraduate student and BEPiD Student</string>
+	<key>education</key>
+	<array>
+		<dict>
+			<key>courseName</key>
+			<string>Computer Science</string>
+			<key>institution</key>
+			<string>Universidade Luterana do Brasil</string>
+			<key>institutionShort</key>
+			<string>ULBRA</string>
+			<key>startDate</key>
+			<date>2014-01-01T02:00:00Z</date>
+			<key>endDate</key>
+			<date>2018-12-31T02:00:00Z</date>
+		</dict>
+		<dict>
+			<key>courseName</key>
+			<string>Information Tecnology - Technical School</string>
+			<key>institution</key>
+			<string>Colégio Dom Feliciano</string>
+			<key>institutionShort</key>
+			<string></string>
+			<key>startDate</key>
+			<date>2012-01-01T02:00:00Z</date>
+			<key>endDate</key>
+			<date>2013-07-01T03:00:00Z</date>
+		</dict>
+	</array>
+	<key>volunteer</key>
+	<array>
+		<dict>
+			<key>description</key>
+			<string>Assistance in assembling a computer lab for underprivileged children at Colégio Dom Feliciano</string>
+		</dict>
+	</array>
+	<key>experience</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>iOS Developer Student</string>
+			<key>where</key>
+			<string>BEPiD</string>
+			<key>startDate</key>
+			<date>2015-02-03T02:00:00Z</date>
+			<key>endDate</key>
+			<date>2015-12-31T02:00:00Z</date>
+			<key>description</key>
+			<string>this is the description</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Intern in systems development</string>
+			<key>where</key>
+			<string>TagInfo</string>
+			<key>startDate</key>
+			<date>2014-03-29T03:00:00Z</date>
+			<key>endDate</key>
+			<date>2014-12-05T02:00:00Z</date>
+			<key>description</key>
+			<string>this is the description</string>
+		</dict>
+	</array>
+	<key>project</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Colaborê</string>
+			<key>description</key>
+			<string>uhuihiuh</string>
+			<key>image</key>
+			<string>logo-icon-colabore</string>
+			<key>imageDark</key>
+			<string>colabore-icon-logo</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>MOG</string>
+			<key>description</key>
+			<string>iojioj</string>
+			<key>image</key>
+			<string>logo-icon-mog</string>
+			<key>imageDark</key>
+			<string>mog-icon-logo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

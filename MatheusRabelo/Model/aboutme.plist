@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>rows</key>
+	<array>
+		<dict>
+			<key>text</key>
+			<string></string>
+			<key>image</key>
+			<string>photo1</string>
+		</dict>
+		<string>My name is Matheus, I was born in 1995, which gives me almost 20 years lived.</string>
+		<dict>
+			<key>text</key>
+			<string>I live in Brazil, Rio Grande do Sul, in a city called Gravataí.</string>
+			<key>image</key>
+			<string>map-gravatai</string>
+		</dict>
+		<string>When I was 16 I got to a Technical School. When I finished the course I knew more than ever what I wanted for life: solve people problems with what I can.</string>
+		<dict>
+			<key>text</key>
+			<string>In 2014 I started study Computer Science at Universidade Luterana do Brasil (ULBRA) at Canoas. </string>
+			<key>image</key>
+			<string>map-canoas</string>
+		</dict>
+		<string></string>
+		<dict>
+			<key>text</key>
+			<string>And finally, at the current year I started the Brazilian Educational Program for iOS Development (BEPiD), at the PUCRS in Porto Alegre.</string>
+			<key>image</key>
+			<string>map-poa</string>
+		</dict>
+		<string>I started developing apps for iOS at February, in the current year, and since then i&apos;m living iOS.</string>
+		<string>I started developing apps with Objective-C. I only started developing with Swift at the end of March. This is my first App using Swift.</string>
+		<string>I&apos;m focusing in projects that can make me reach the wish of my childhood: help people with their problems with what I can.</string>
+		<string>Currently I&apos;m in two projects. They&apos;re going to be my first apps at AppStore. </string>
+		<dict>
+			<key>text</key>
+			<string>One app is called MOG. The app is meant to help people to organize and manage their soccer games. </string>
+			<key>image</key>
+			<string>mog-icon-logo</string>
+		</dict>
+		<string></string>
+		<dict>
+			<key>text</key>
+			<string>The other app is called Colaborê. The app is meant to help people to share and know about the problems in some location.</string>
+			<key>image</key>
+			<string>colabore-icon-logo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

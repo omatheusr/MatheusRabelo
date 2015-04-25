@@ -1,0 +1,847 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3B1CA4F1AEB8437003C9524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA4E1AEB8437003C9524 /* AppDelegate.swift */; };
+		C3B1CA541AEB8437003C9524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B1CA521AEB8437003C9524 /* Main.storyboard */; };
+		C3B1CA561AEB8437003C9524 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B1CA551AEB8437003C9524 /* Images.xcassets */; };
+		C3B1CA591AEB8437003C9524 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3B1CA571AEB8437003C9524 /* LaunchScreen.xib */; };
+		C3B1CA651AEB8437003C9524 /* MatheusRabeloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA641AEB8437003C9524 /* MatheusRabeloTests.swift */; };
+		C3B1CA771AEB85B7003C9524 /* REColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA701AEB85B7003C9524 /* REColor.swift */; };
+		C3B1CA781AEB85B7003C9524 /* REDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA711AEB85B7003C9524 /* REDefaults.swift */; };
+		C3B1CA791AEB85B7003C9524 /* REEducation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA721AEB85B7003C9524 /* REEducation.swift */; };
+		C3B1CA7A1AEB85B7003C9524 /* REExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA731AEB85B7003C9524 /* REExperience.swift */; };
+		C3B1CA7B1AEB85B7003C9524 /* REProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA741AEB85B7003C9524 /* REProject.swift */; };
+		C3B1CA7C1AEB85B7003C9524 /* REResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA751AEB85B7003C9524 /* REResume.swift */; };
+		C3B1CA7D1AEB85B7003C9524 /* REVolunteer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA761AEB85B7003C9524 /* REVolunteer.swift */; };
+		C3B1CA861AEB8665003C9524 /* aboutme.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3B1CA841AEB8665003C9524 /* aboutme.plist */; };
+		C3B1CA871AEB8665003C9524 /* resume.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3B1CA851AEB8665003C9524 /* resume.plist */; };
+		C3B1CA891AEB8683003C9524 /* RETableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA881AEB8683003C9524 /* RETableViewCell.swift */; };
+		C3B1CA951AEB86AE003C9524 /* REVolunteerCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA8A1AEB86AE003C9524 /* REVolunteerCellTableViewCell.swift */; };
+		C3B1CA961AEB86AE003C9524 /* RESocialCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA8B1AEB86AE003C9524 /* RESocialCellTableViewCell.swift */; };
+		C3B1CA971AEB86AE003C9524 /* REReusableLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA8C1AEB86AE003C9524 /* REReusableLabelTableViewCell.swift */; };
+		C3B1CA981AEB86AE003C9524 /* REProjectCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA8D1AEB86AE003C9524 /* REProjectCellTableViewCell.swift */; };
+		C3B1CA991AEB86AE003C9524 /* REProfilePhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA8E1AEB86AE003C9524 /* REProfilePhotoTableViewCell.swift */; };
+		C3B1CA9A1AEB86AE003C9524 /* REInfoCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA8F1AEB86AE003C9524 /* REInfoCellTableViewCell.swift */; };
+		C3B1CA9B1AEB86AE003C9524 /* REHeaderFooterCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA901AEB86AE003C9524 /* REHeaderFooterCellTableViewCell.swift */; };
+		C3B1CA9C1AEB86AE003C9524 /* REExperienceCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA911AEB86AE003C9524 /* REExperienceCellTableViewCell.swift */; };
+		C3B1CA9D1AEB86AE003C9524 /* REEducationCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA921AEB86AE003C9524 /* REEducationCellTableViewCell.swift */; };
+		C3B1CA9E1AEB86AE003C9524 /* RECellSimpleRowTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA931AEB86AE003C9524 /* RECellSimpleRowTableViewCell.swift */; };
+		C3B1CA9F1AEB86AE003C9524 /* RECellImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CA941AEB86AE003C9524 /* RECellImageTableViewCell.swift */; };
+		C3B1CAA51AEB86D9003C9524 /* REResumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CAA21AEB86D9003C9524 /* REResumeViewController.swift */; };
+		C3B1CAA61AEB86D9003C9524 /* RELauncherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CAA31AEB86D9003C9524 /* RELauncherViewController.swift */; };
+		C3B1CAA71AEB86D9003C9524 /* REConfigTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CAA41AEB86D9003C9524 /* REConfigTableViewController.swift */; };
+		C3B1CAB31AEB876C003C9524 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B1CAB21AEB876C003C9524 /* Images.xcassets */; };
+		C3B1CAB71AEB876C003C9524 /* MatheusRabelo WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = C3B1CAB61AEB876C003C9524 /* MatheusRabelo WatchKit App.app */; };
+		C3B1CABF1AEB876C003C9524 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3B1CABD1AEB876C003C9524 /* Interface.storyboard */; };
+		C3B1CAC11AEB876C003C9524 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3B1CAC01AEB876C003C9524 /* Images.xcassets */; };
+		C3B1CAC41AEB876C003C9524 /* MatheusRabelo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C3B1CAAC1AEB876B003C9524 /* MatheusRabelo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C3B1CACF1AEB87CB003C9524 /* REConfigInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CACD1AEB87CB003C9524 /* REConfigInterfaceController.swift */; };
+		C3B1CAD01AEB87CB003C9524 /* REMainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CACE1AEB87CB003C9524 /* REMainInterfaceController.swift */; };
+		C3B1CAD31AEB8BB6003C9524 /* REAboutMeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CAD21AEB8BB6003C9524 /* REAboutMeTableViewController.swift */; };
+		C3B1CAD51AEBEEF1003C9524 /* REDetailPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B1CAD41AEBEEF1003C9524 /* REDetailPopUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3B1CA5F1AEB8437003C9524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B1CA411AEB8437003C9524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B1CA481AEB8437003C9524;
+			remoteInfo = MatheusRabelo;
+		};
+		C3B1CAB81AEB876C003C9524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B1CA411AEB8437003C9524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B1CAB51AEB876C003C9524;
+			remoteInfo = "MatheusRabelo WatchKit App";
+		};
+		C3B1CAC21AEB876C003C9524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B1CA411AEB8437003C9524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3B1CAAB1AEB876B003C9524;
+			remoteInfo = "MatheusRabelo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C3B1CACB1AEB876C003C9524 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C3B1CAC41AEB876C003C9524 /* MatheusRabelo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C3B1CA491AEB8437003C9524 /* MatheusRabelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatheusRabelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B1CA4D1AEB8437003C9524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B1CA4E1AEB8437003C9524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3B1CA531AEB8437003C9524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3B1CA551AEB8437003C9524 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3B1CA581AEB8437003C9524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C3B1CA5E1AEB8437003C9524 /* MatheusRabeloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatheusRabeloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B1CA631AEB8437003C9524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B1CA641AEB8437003C9524 /* MatheusRabeloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatheusRabeloTests.swift; sourceTree = "<group>"; };
+		C3B1CA701AEB85B7003C9524 /* REColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REColor.swift; path = Objects/REColor.swift; sourceTree = "<group>"; };
+		C3B1CA711AEB85B7003C9524 /* REDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REDefaults.swift; path = Objects/REDefaults.swift; sourceTree = "<group>"; };
+		C3B1CA721AEB85B7003C9524 /* REEducation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REEducation.swift; path = Objects/REEducation.swift; sourceTree = "<group>"; };
+		C3B1CA731AEB85B7003C9524 /* REExperience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REExperience.swift; path = Objects/REExperience.swift; sourceTree = "<group>"; };
+		C3B1CA741AEB85B7003C9524 /* REProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REProject.swift; path = Objects/REProject.swift; sourceTree = "<group>"; };
+		C3B1CA751AEB85B7003C9524 /* REResume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REResume.swift; path = Objects/REResume.swift; sourceTree = "<group>"; };
+		C3B1CA761AEB85B7003C9524 /* REVolunteer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REVolunteer.swift; path = Objects/REVolunteer.swift; sourceTree = "<group>"; };
+		C3B1CA841AEB8665003C9524 /* aboutme.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = aboutme.plist; path = Model/aboutme.plist; sourceTree = "<group>"; };
+		C3B1CA851AEB8665003C9524 /* resume.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = resume.plist; path = Model/resume.plist; sourceTree = "<group>"; };
+		C3B1CA881AEB8683003C9524 /* RETableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RETableViewCell.swift; path = Controller/RETableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CA8A1AEB86AE003C9524 /* REVolunteerCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REVolunteerCellTableViewCell.swift; path = Controller/REVolunteerCellTableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CA8B1AEB86AE003C9524 /* RESocialCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RESocialCellTableViewCell.swift; path = Controller/RESocialCellTableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CA8C1AEB86AE003C9524 /* REReusableLabelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REReusableLabelTableViewCell.swift; path = Controller/REReusableLabelTableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CA8D1AEB86AE003C9524 /* REProjectCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REProjectCellTableViewCell.swift; path = Controller/REProjectCellTableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CA8E1AEB86AE003C9524 /* REProfilePhotoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REProfilePhotoTableViewCell.swift; path = Controller/REProfilePhotoTableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CA8F1AEB86AE003C9524 /* REInfoCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REInfoCellTableViewCell.swift; path = Controller/REInfoCellTableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CA901AEB86AE003C9524 /* REHeaderFooterCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REHeaderFooterCellTableViewCell.swift; path = Controller/REHeaderFooterCellTableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CA911AEB86AE003C9524 /* REExperienceCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REExperienceCellTableViewCell.swift; path = Controller/REExperienceCellTableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CA921AEB86AE003C9524 /* REEducationCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REEducationCellTableViewCell.swift; path = Controller/REEducationCellTableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CA931AEB86AE003C9524 /* RECellSimpleRowTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RECellSimpleRowTableViewCell.swift; path = Controller/RECellSimpleRowTableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CA941AEB86AE003C9524 /* RECellImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RECellImageTableViewCell.swift; path = Controller/RECellImageTableViewCell.swift; sourceTree = "<group>"; };
+		C3B1CAA21AEB86D9003C9524 /* REResumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REResumeViewController.swift; path = Controller/REResumeViewController.swift; sourceTree = "<group>"; };
+		C3B1CAA31AEB86D9003C9524 /* RELauncherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RELauncherViewController.swift; path = Controller/RELauncherViewController.swift; sourceTree = "<group>"; };
+		C3B1CAA41AEB86D9003C9524 /* REConfigTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REConfigTableViewController.swift; path = Controller/REConfigTableViewController.swift; sourceTree = "<group>"; };
+		C3B1CAAC1AEB876B003C9524 /* MatheusRabelo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MatheusRabelo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B1CAAF1AEB876C003C9524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B1CAB21AEB876C003C9524 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3B1CAB61AEB876C003C9524 /* MatheusRabelo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MatheusRabelo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3B1CABC1AEB876C003C9524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3B1CABE1AEB876C003C9524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C3B1CAC01AEB876C003C9524 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C3B1CACD1AEB87CB003C9524 /* REConfigInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REConfigInterfaceController.swift; sourceTree = "<group>"; };
+		C3B1CACE1AEB87CB003C9524 /* REMainInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = REMainInterfaceController.swift; sourceTree = "<group>"; };
+		C3B1CAD21AEB8BB6003C9524 /* REAboutMeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REAboutMeTableViewController.swift; path = Controller/REAboutMeTableViewController.swift; sourceTree = "<group>"; };
+		C3B1CAD41AEBEEF1003C9524 /* REDetailPopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = REDetailPopUpViewController.swift; path = Controller/REDetailPopUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3B1CA461AEB8437003C9524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B1CA5B1AEB8437003C9524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B1CAA91AEB876B003C9524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3B1CA401AEB8437003C9524 = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA4B1AEB8437003C9524 /* MatheusRabelo */,
+				C3B1CA611AEB8437003C9524 /* MatheusRabeloTests */,
+				C3B1CAAD1AEB876C003C9524 /* MatheusRabelo WatchKit Extension */,
+				C3B1CABA1AEB876C003C9524 /* MatheusRabelo WatchKit App */,
+				C3B1CA4A1AEB8437003C9524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3B1CA4A1AEB8437003C9524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA491AEB8437003C9524 /* MatheusRabelo.app */,
+				C3B1CA5E1AEB8437003C9524 /* MatheusRabeloTests.xctest */,
+				C3B1CAAC1AEB876B003C9524 /* MatheusRabelo WatchKit Extension.appex */,
+				C3B1CAB61AEB876C003C9524 /* MatheusRabelo WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3B1CA4B1AEB8437003C9524 /* MatheusRabelo */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA7F1AEB85D4003C9524 /* Model */,
+				C3B1CA801AEB85D9003C9524 /* View */,
+				C3B1CA811AEB85DC003C9524 /* Controller */,
+				C3B1CA7E1AEB85C4003C9524 /* Objects */,
+				C3B1CA4E1AEB8437003C9524 /* AppDelegate.swift */,
+				C3B1CA551AEB8437003C9524 /* Images.xcassets */,
+				C3B1CA4C1AEB8437003C9524 /* Supporting Files */,
+			);
+			path = MatheusRabelo;
+			sourceTree = "<group>";
+		};
+		C3B1CA4C1AEB8437003C9524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA4D1AEB8437003C9524 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3B1CA611AEB8437003C9524 /* MatheusRabeloTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA641AEB8437003C9524 /* MatheusRabeloTests.swift */,
+				C3B1CA621AEB8437003C9524 /* Supporting Files */,
+			);
+			path = MatheusRabeloTests;
+			sourceTree = "<group>";
+		};
+		C3B1CA621AEB8437003C9524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA631AEB8437003C9524 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3B1CA7E1AEB85C4003C9524 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA721AEB85B7003C9524 /* REEducation.swift */,
+				C3B1CA731AEB85B7003C9524 /* REExperience.swift */,
+				C3B1CA741AEB85B7003C9524 /* REProject.swift */,
+				C3B1CA751AEB85B7003C9524 /* REResume.swift */,
+				C3B1CA761AEB85B7003C9524 /* REVolunteer.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		C3B1CA7F1AEB85D4003C9524 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA841AEB8665003C9524 /* aboutme.plist */,
+				C3B1CA851AEB8665003C9524 /* resume.plist */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C3B1CA801AEB85D9003C9524 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA571AEB8437003C9524 /* LaunchScreen.xib */,
+				C3B1CA521AEB8437003C9524 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C3B1CA811AEB85DC003C9524 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CAD21AEB8BB6003C9524 /* REAboutMeTableViewController.swift */,
+				C3B1CAA21AEB86D9003C9524 /* REResumeViewController.swift */,
+				C3B1CAA31AEB86D9003C9524 /* RELauncherViewController.swift */,
+				C3B1CAA41AEB86D9003C9524 /* REConfigTableViewController.swift */,
+				C3B1CAD41AEBEEF1003C9524 /* REDetailPopUpViewController.swift */,
+				C3B1CA831AEB85F2003C9524 /* Cells */,
+				C3B1CA821AEB85EA003C9524 /* Static */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C3B1CA821AEB85EA003C9524 /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA701AEB85B7003C9524 /* REColor.swift */,
+				C3B1CA711AEB85B7003C9524 /* REDefaults.swift */,
+			);
+			name = Static;
+			sourceTree = "<group>";
+		};
+		C3B1CA831AEB85F2003C9524 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CAA11AEB86C1003C9524 /* Resume */,
+				C3B1CAA01AEB86B9003C9524 /* AboutMe */,
+				C3B1CA881AEB8683003C9524 /* RETableViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		C3B1CAA01AEB86B9003C9524 /* AboutMe */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA931AEB86AE003C9524 /* RECellSimpleRowTableViewCell.swift */,
+				C3B1CA941AEB86AE003C9524 /* RECellImageTableViewCell.swift */,
+			);
+			name = AboutMe;
+			sourceTree = "<group>";
+		};
+		C3B1CAA11AEB86C1003C9524 /* Resume */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CA8A1AEB86AE003C9524 /* REVolunteerCellTableViewCell.swift */,
+				C3B1CA8B1AEB86AE003C9524 /* RESocialCellTableViewCell.swift */,
+				C3B1CA8C1AEB86AE003C9524 /* REReusableLabelTableViewCell.swift */,
+				C3B1CA8D1AEB86AE003C9524 /* REProjectCellTableViewCell.swift */,
+				C3B1CA8E1AEB86AE003C9524 /* REProfilePhotoTableViewCell.swift */,
+				C3B1CA8F1AEB86AE003C9524 /* REInfoCellTableViewCell.swift */,
+				C3B1CA901AEB86AE003C9524 /* REHeaderFooterCellTableViewCell.swift */,
+				C3B1CA911AEB86AE003C9524 /* REExperienceCellTableViewCell.swift */,
+				C3B1CA921AEB86AE003C9524 /* REEducationCellTableViewCell.swift */,
+			);
+			name = Resume;
+			sourceTree = "<group>";
+		};
+		C3B1CAAD1AEB876C003C9524 /* MatheusRabelo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CACD1AEB87CB003C9524 /* REConfigInterfaceController.swift */,
+				C3B1CACE1AEB87CB003C9524 /* REMainInterfaceController.swift */,
+				C3B1CAB21AEB876C003C9524 /* Images.xcassets */,
+				C3B1CAAE1AEB876C003C9524 /* Supporting Files */,
+			);
+			path = "MatheusRabelo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		C3B1CAAE1AEB876C003C9524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CAAF1AEB876C003C9524 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3B1CABA1AEB876C003C9524 /* MatheusRabelo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CABD1AEB876C003C9524 /* Interface.storyboard */,
+				C3B1CAC01AEB876C003C9524 /* Images.xcassets */,
+				C3B1CABB1AEB876C003C9524 /* Supporting Files */,
+			);
+			path = "MatheusRabelo WatchKit App";
+			sourceTree = "<group>";
+		};
+		C3B1CABB1AEB876C003C9524 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1CABC1AEB876C003C9524 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3B1CA481AEB8437003C9524 /* MatheusRabelo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B1CA681AEB8437003C9524 /* Build configuration list for PBXNativeTarget "MatheusRabelo" */;
+			buildPhases = (
+				C3B1CA451AEB8437003C9524 /* Sources */,
+				C3B1CA461AEB8437003C9524 /* Frameworks */,
+				C3B1CA471AEB8437003C9524 /* Resources */,
+				C3B1CACB1AEB876C003C9524 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3B1CAC31AEB876C003C9524 /* PBXTargetDependency */,
+			);
+			name = MatheusRabelo;
+			productName = MatheusRabelo;
+			productReference = C3B1CA491AEB8437003C9524 /* MatheusRabelo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3B1CA5D1AEB8437003C9524 /* MatheusRabeloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B1CA6B1AEB8437003C9524 /* Build configuration list for PBXNativeTarget "MatheusRabeloTests" */;
+			buildPhases = (
+				C3B1CA5A1AEB8437003C9524 /* Sources */,
+				C3B1CA5B1AEB8437003C9524 /* Frameworks */,
+				C3B1CA5C1AEB8437003C9524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3B1CA601AEB8437003C9524 /* PBXTargetDependency */,
+			);
+			name = MatheusRabeloTests;
+			productName = MatheusRabeloTests;
+			productReference = C3B1CA5E1AEB8437003C9524 /* MatheusRabeloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3B1CAAB1AEB876B003C9524 /* MatheusRabelo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B1CAC81AEB876C003C9524 /* Build configuration list for PBXNativeTarget "MatheusRabelo WatchKit Extension" */;
+			buildPhases = (
+				C3B1CAA81AEB876B003C9524 /* Sources */,
+				C3B1CAA91AEB876B003C9524 /* Frameworks */,
+				C3B1CAAA1AEB876B003C9524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3B1CAB91AEB876C003C9524 /* PBXTargetDependency */,
+			);
+			name = "MatheusRabelo WatchKit Extension";
+			productName = "MatheusRabelo WatchKit Extension";
+			productReference = C3B1CAAC1AEB876B003C9524 /* MatheusRabelo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		C3B1CAB51AEB876C003C9524 /* MatheusRabelo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3B1CAC51AEB876C003C9524 /* Build configuration list for PBXNativeTarget "MatheusRabelo WatchKit App" */;
+			buildPhases = (
+				C3B1CAB41AEB876C003C9524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MatheusRabelo WatchKit App";
+			productName = "MatheusRabelo WatchKit App";
+			productReference = C3B1CAB61AEB876C003C9524 /* MatheusRabelo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3B1CA411AEB8437003C9524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Matheus;
+				TargetAttributes = {
+					C3B1CA481AEB8437003C9524 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C3B1CA5D1AEB8437003C9524 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = C3B1CA481AEB8437003C9524;
+					};
+					C3B1CAAB1AEB876B003C9524 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					C3B1CAB51AEB876C003C9524 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = C3B1CA441AEB8437003C9524 /* Build configuration list for PBXProject "MatheusRabelo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3B1CA401AEB8437003C9524;
+			productRefGroup = C3B1CA4A1AEB8437003C9524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3B1CA481AEB8437003C9524 /* MatheusRabelo */,
+				C3B1CA5D1AEB8437003C9524 /* MatheusRabeloTests */,
+				C3B1CAAB1AEB876B003C9524 /* MatheusRabelo WatchKit Extension */,
+				C3B1CAB51AEB876C003C9524 /* MatheusRabelo WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3B1CA471AEB8437003C9524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B1CA861AEB8665003C9524 /* aboutme.plist in Resources */,
+				C3B1CA541AEB8437003C9524 /* Main.storyboard in Resources */,
+				C3B1CA871AEB8665003C9524 /* resume.plist in Resources */,
+				C3B1CA591AEB8437003C9524 /* LaunchScreen.xib in Resources */,
+				C3B1CA561AEB8437003C9524 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B1CA5C1AEB8437003C9524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B1CAAA1AEB876B003C9524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B1CAB31AEB876C003C9524 /* Images.xcassets in Resources */,
+				C3B1CAB71AEB876C003C9524 /* MatheusRabelo WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B1CAB41AEB876C003C9524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B1CABF1AEB876C003C9524 /* Interface.storyboard in Resources */,
+				C3B1CAC11AEB876C003C9524 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3B1CA451AEB8437003C9524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B1CA9A1AEB86AE003C9524 /* REInfoCellTableViewCell.swift in Sources */,
+				C3B1CA771AEB85B7003C9524 /* REColor.swift in Sources */,
+				C3B1CAD51AEBEEF1003C9524 /* REDetailPopUpViewController.swift in Sources */,
+				C3B1CA9F1AEB86AE003C9524 /* RECellImageTableViewCell.swift in Sources */,
+				C3B1CA9C1AEB86AE003C9524 /* REExperienceCellTableViewCell.swift in Sources */,
+				C3B1CA9B1AEB86AE003C9524 /* REHeaderFooterCellTableViewCell.swift in Sources */,
+				C3B1CA7C1AEB85B7003C9524 /* REResume.swift in Sources */,
+				C3B1CAA71AEB86D9003C9524 /* REConfigTableViewController.swift in Sources */,
+				C3B1CA7A1AEB85B7003C9524 /* REExperience.swift in Sources */,
+				C3B1CAD31AEB8BB6003C9524 /* REAboutMeTableViewController.swift in Sources */,
+				C3B1CAA51AEB86D9003C9524 /* REResumeViewController.swift in Sources */,
+				C3B1CA7B1AEB85B7003C9524 /* REProject.swift in Sources */,
+				C3B1CA961AEB86AE003C9524 /* RESocialCellTableViewCell.swift in Sources */,
+				C3B1CA4F1AEB8437003C9524 /* AppDelegate.swift in Sources */,
+				C3B1CA951AEB86AE003C9524 /* REVolunteerCellTableViewCell.swift in Sources */,
+				C3B1CA781AEB85B7003C9524 /* REDefaults.swift in Sources */,
+				C3B1CA791AEB85B7003C9524 /* REEducation.swift in Sources */,
+				C3B1CA7D1AEB85B7003C9524 /* REVolunteer.swift in Sources */,
+				C3B1CAA61AEB86D9003C9524 /* RELauncherViewController.swift in Sources */,
+				C3B1CA9E1AEB86AE003C9524 /* RECellSimpleRowTableViewCell.swift in Sources */,
+				C3B1CA981AEB86AE003C9524 /* REProjectCellTableViewCell.swift in Sources */,
+				C3B1CA971AEB86AE003C9524 /* REReusableLabelTableViewCell.swift in Sources */,
+				C3B1CA891AEB8683003C9524 /* RETableViewCell.swift in Sources */,
+				C3B1CA991AEB86AE003C9524 /* REProfilePhotoTableViewCell.swift in Sources */,
+				C3B1CA9D1AEB86AE003C9524 /* REEducationCellTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B1CA5A1AEB8437003C9524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B1CA651AEB8437003C9524 /* MatheusRabeloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3B1CAA81AEB876B003C9524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B1CACF1AEB87CB003C9524 /* REConfigInterfaceController.swift in Sources */,
+				C3B1CAD01AEB87CB003C9524 /* REMainInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3B1CA601AEB8437003C9524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3B1CA481AEB8437003C9524 /* MatheusRabelo */;
+			targetProxy = C3B1CA5F1AEB8437003C9524 /* PBXContainerItemProxy */;
+		};
+		C3B1CAB91AEB876C003C9524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3B1CAB51AEB876C003C9524 /* MatheusRabelo WatchKit App */;
+			targetProxy = C3B1CAB81AEB876C003C9524 /* PBXContainerItemProxy */;
+		};
+		C3B1CAC31AEB876C003C9524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3B1CAAB1AEB876B003C9524 /* MatheusRabelo WatchKit Extension */;
+			targetProxy = C3B1CAC21AEB876C003C9524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3B1CA521AEB8437003C9524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B1CA531AEB8437003C9524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3B1CA571AEB8437003C9524 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B1CA581AEB8437003C9524 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		C3B1CABD1AEB876C003C9524 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3B1CABE1AEB876C003C9524 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3B1CA661AEB8437003C9524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3B1CA671AEB8437003C9524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3B1CA691AEB8437003C9524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MatheusRabelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3B1CA6A1AEB8437003C9524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MatheusRabelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3B1CA6C1AEB8437003C9524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MatheusRabeloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatheusRabelo.app/MatheusRabelo";
+			};
+			name = Debug;
+		};
+		C3B1CA6D1AEB8437003C9524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MatheusRabeloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MatheusRabelo.app/MatheusRabelo";
+			};
+			name = Release;
+		};
+		C3B1CAC61AEB876C003C9524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = MatheusRabelo_WatchKit_Extension;
+				INFOPLIST_FILE = "MatheusRabelo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		C3B1CAC71AEB876C003C9524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = MatheusRabelo_WatchKit_Extension;
+				INFOPLIST_FILE = "MatheusRabelo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		C3B1CAC91AEB876C003C9524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MatheusRabelo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3B1CACA1AEB876C003C9524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "MatheusRabelo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3B1CA441AEB8437003C9524 /* Build configuration list for PBXProject "MatheusRabelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B1CA661AEB8437003C9524 /* Debug */,
+				C3B1CA671AEB8437003C9524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3B1CA681AEB8437003C9524 /* Build configuration list for PBXNativeTarget "MatheusRabelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B1CA691AEB8437003C9524 /* Debug */,
+				C3B1CA6A1AEB8437003C9524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3B1CA6B1AEB8437003C9524 /* Build configuration list for PBXNativeTarget "MatheusRabeloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B1CA6C1AEB8437003C9524 /* Debug */,
+				C3B1CA6D1AEB8437003C9524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3B1CAC51AEB876C003C9524 /* Build configuration list for PBXNativeTarget "MatheusRabelo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B1CAC61AEB876C003C9524 /* Debug */,
+				C3B1CAC71AEB876C003C9524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3B1CAC81AEB876C003C9524 /* Build configuration list for PBXNativeTarget "MatheusRabelo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3B1CAC91AEB876C003C9524 /* Debug */,
+				C3B1CACA1AEB876C003C9524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3B1CA411AEB8437003C9524 /* Project object */;
+}

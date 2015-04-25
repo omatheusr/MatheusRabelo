@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Main Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="REMainInterfaceController" customModule="MatheusRabelo_WatchKit_Extension">
+                    <items>
+                        <group width="1" alignment="left" id="WIu-aK-CSx">
+                            <items>
+                                <label alignment="center" verticalAlignment="center" text="Matheus" textAlignment="center" id="oNn-jL-WM6"/>
+                            </items>
+                        </group>
+                        <imageView width="100" height="100" alignment="center" verticalAlignment="center" image="me" contentMode="scaleAspectFill" animationDuration="2" id="cy9-tL-YDx">
+                            <variation key="device=watch38mm" height="100" width="100"/>
+                            <variation key="device=watch42mm" height="120" width="120"/>
+                        </imageView>
+                    </items>
+                    <menu key="menu" id="rbf-3x-0LR">
+                        <items>
+                            <menuItem title="Config" image="icon-config" id="aZu-n0-Ot0">
+                                <connections>
+                                    <action selector="openConfig" destination="AgC-eL-Hgc" id="7RG-9h-Na4"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="280" y="335"/>
+        </scene>
+        <!--Config-->
+        <scene sceneID="KMI-T9-fbo">
+            <objects>
+                <controller identifier="interfaceConfig" title="Config" id="fba-H2-6Vk" customClass="REConfigInterfaceController" customModule="MatheusRabelo_WatchKit_Extension">
+                    <items>
+                        <switch width="1" alignment="left" value="YES" title="Camera" id="0Rc-6s-1bl">
+                            <connections>
+                                <action selector="switchCameraConfiguration:" destination="fba-H2-6Vk" id="qj9-SX-Mwe"/>
+                            </connections>
+                        </switch>
+                        <switch width="1" alignment="left" value="YES" title="Front" id="Saz-k5-BUm">
+                            <connections>
+                                <action selector="switchCameraSide:" destination="fba-H2-6Vk" id="fmT-Ak-doH"/>
+                            </connections>
+                        </switch>
+                        <separator alignment="left" id="7XK-WE-BIM"/>
+                        <label alignment="center" text="Color pallet" textAlignment="center" id="CVf-j3-WCZ"/>
+                        <group width="1" alignment="left" id="Ygh-2q-Qtc">
+                            <items>
+                                <button alignment="center" verticalAlignment="center" backgroundImage="Group1" id="yFf-Hc-uTQ">
+                                    <connections>
+                                        <action selector="btChangePalletColor" destination="fba-H2-6Vk" id="8ux-FP-BAJ"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="btPalletColor" destination="yFf-Hc-uTQ" id="PxV-bv-wGP"/>
+                        <outlet property="swtCamera" destination="0Rc-6s-1bl" id="ecR-rG-cd1"/>
+                        <outlet property="swtCameraSide" destination="Saz-k5-BUm" id="MRG-7z-1he"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="477" y="335"/>
+        </scene>
+    </scenes>
+</document>
