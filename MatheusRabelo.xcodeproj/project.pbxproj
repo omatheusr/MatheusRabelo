@@ -816,6 +816,7 @@
 				C3B1CA6A1AEB8437003C9524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3B1CA6B1AEB8437003C9524 /* Build configuration list for PBXNativeTarget "MatheusRabeloTests" */ = {
 			isa = XCConfigurationList;
@@ -824,6 +825,7 @@
 				C3B1CA6D1AEB8437003C9524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3B1CAC51AEB876C003C9524 /* Build configuration list for PBXNativeTarget "MatheusRabelo WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -832,6 +834,7 @@
 				C3B1CAC71AEB876C003C9524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3B1CAC81AEB876C003C9524 /* Build configuration list for PBXNativeTarget "MatheusRabelo WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -840,6 +843,7 @@
 				C3B1CACA1AEB876C003C9524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

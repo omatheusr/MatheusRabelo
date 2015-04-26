@@ -12,7 +12,7 @@ class REDetailPopUpViewController: UIViewController {
     
     //MARK: - Vars
     private let constraintConstantMin : CGFloat = 28
-    private let constraintConstantMax : CGFloat = 236
+    private let constraintConstantMax : CGFloat = 190
     
     //MARK: - Outlets
     @IBOutlet weak var mainView: UIView!
@@ -35,7 +35,7 @@ class REDetailPopUpViewController: UIViewController {
         self.mainView.layer.masksToBounds = true
         self.mainView.layer.cornerRadius = 15
         
-        self.btClose.tintColor = REColor.colorDarkBlue
+        self.btClose.tintColor = REColor.colorRed
     }
     
     

@@ -21,9 +21,9 @@
 	<key>phone</key>
 	<string>+55 51 9228-6251</string>
 	<key>longDescription</key>
-	<string>Mobile development. I strive to work in meaningful projects that can change people’s lives, allowing me to contribute with my knowledge while also evolving as a professional.</string>
+	<string> I love mobile development. I like to work in projects that challenges me and also can help and change people’s lives.</string>
 	<key>shortDescription</key>
-	<string>Computer Science Undergraduate student and BEPiD Student</string>
+	<string>Computer Science Undergraduate and BEPiD Student</string>
 	<key>education</key>
 	<array>
 		<dict>
@@ -70,7 +70,7 @@
 			<key>endDate</key>
 			<date>2015-12-31T02:00:00Z</date>
 			<key>description</key>
-			<string>this is the description</string>
+			<string>Development of mobile applications for iOS devices.</string>
 		</dict>
 		<dict>
 			<key>title</key>
@@ -82,7 +82,7 @@
 			<key>endDate</key>
 			<date>2014-12-05T02:00:00Z</date>
 			<key>description</key>
-			<string>this is the description</string>
+			<string>System development at the industrial automation area using VisualBasic and C# with the .NET technology.</string>
 		</dict>
 	</array>
 	<key>project</key>
@@ -91,7 +91,7 @@
 			<key>title</key>
 			<string>Colaborê</string>
 			<key>description</key>
-			<string>uhuihiuh</string>
+			<string>A tree went down in the middle of the street that you pass by everyday to go to work and you are only going to know that when you&apos;re already in the middle of a traffic jam. Colaborê is an app that was idealized to be the solution to this problem. The main ideia is that you&apos;ll be able to see and share what&apos;s happening on your city. The app will be soon on the AppStore.</string>
 			<key>image</key>
 			<string>logo-icon-colabore</string>
 			<key>imageDark</key>
@@ -101,7 +101,7 @@
 			<key>title</key>
 			<string>MOG</string>
 			<key>description</key>
-			<string>iojioj</string>
+			<string>Just as the biggest part of brazilians, I love soccer. Today, organize your games are really exhausting and all the solutions out there for that issue are not the best they could be. MOG came to solve this problem. The app is meant to help people to organize and manage their soccer games. The app will be soon on the AppStore.</string>
 			<key>image</key>
 			<string>logo-icon-mog</string>
 			<key>imageDark</key>

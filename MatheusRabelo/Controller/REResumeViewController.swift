@@ -91,6 +91,11 @@ class REResumeViewController: UIViewController, UITableViewDataSource, UITableVi
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("defaultsChangedAction:"), name: NSUserDefaultsDidChangeNotification, object: nil)
     }
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        self.askCameraPermission()
+    }
     
     // MARK: - DataSource + Delegates
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
@@ -538,6 +543,11 @@ class REResumeViewController: UIViewController, UITableViewDataSource, UITableVi
     func initializeCamera(){
         self.stopCamera()
         
+        if(!self.currentDefaultShowCamera)
+        {
+            return
+        }
+        
         self.tableResume.backgroundColor = REColor.colorWhite
         
         self.cameraView = UIView()
@@ -627,7 +637,52 @@ class REResumeViewController: UIViewController, UITableViewDataSource, UITableVi
         }
         self.tableResume.reloadData()
     }
+    func askCameraPermission(){
     
+        var askForChange : (()->()) = { () -> () in
+            let alert : UIAlertController = UIAlertController(title: "Hey!", message: "Go to the app settings and allow it to get your camera image, you'll see the background became transparent.", preferredStyle: UIAlertControllerStyle.Alert)
+            
+            let no : UIAlertAction = UIAlertAction(title: "No", style: UIAlertActionStyle.Cancel, handler: { (action) -> Void in
+                
+            })
+            let open : UIAlertAction = UIAlertAction(title: "Settings", style: UIAlertActionStyle.Default, handler: { (action) -> Void in
+                
+                UIApplication.sharedApplication().openURL(NSURL(string: UIApplicationOpenSettingsURLString)!)
+            })
+            
+            alert.addAction(no)
+            alert.addAction(open)
+            
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
+        
+        let status : AVAuthorizationStatus = AVCaptureDevice.authorizationStatusForMediaType(AVMediaTypeVideo)
+        
+        switch(status)
+        {
+        case AVAuthorizationStatus.Denied:
+            fallthrough
+        case AVAuthorizationStatus.Restricted:
+
+            askForChange()
+            
+        case AVAuthorizationStatus.NotDetermined:
+            AVCaptureDevice.requestAccessForMediaType(AVMediaTypeVideo, completionHandler: { (granted) -> Void in
+                if(!granted)
+                {
+                    askForChange()
+                }else{
+                    self.initializeCamera()
+                    self.updateColorPallet(self.currentDefaultPallet)
+                    self.tableResume.reloadData()
+                }
+            })
+        default:
+            break
+        }
+        
+        
+    }
     // MARK: - Actions
     @IBAction func changeColor (tap : UITapGestureRecognizer){
         
@@ -654,12 +709,9 @@ class REResumeViewController: UIViewController, UITableViewDataSource, UITableVi
             if(showCamera != self.currentDefaultShowCamera)
             {
                 self.currentDefaultShowCamera = showCamera
-                if(!showCamera)
-                {
-                    self.stopCamera()
-                }else{
-                    self.initializeCamera()
-                }
+                
+                self.initializeCamera()
+                
                 self.updateColorPallet(self.currentDefaultPallet)
                 self.tableResume.reloadData()
             }

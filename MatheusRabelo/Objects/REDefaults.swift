@@ -29,10 +29,8 @@ class REDefaults: NSObject {
     // MARK: - Controll Functions
     
     class func initializeAppDefaultsConfig(){
-        if(cameraIsAvailable == nil)
-        {
-            cameraIsAvailable = true
-        }
+        cameraIsAvailable = true
+        
         if(showCamera == nil)
         {
             showCamera = true
