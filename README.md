@@ -1,5 +1,4 @@
-# My WWDC Project :grin:
-[![WWDC Banner](https://devimages.apple.com.edgekey.net/wwdc/images/wwdc15-hero_2x.png)](https://developer.apple.com/wwdc/)
+# My WWDC 2015 Project :grin:
 
 Here is some screenshots of my app :)
 
@@ -13,6 +12,6 @@ Here is some screenshots of my app :)
 ![WatchApp - Config](https://raw.githubusercontent.com/omatheusr/MatheusRabelo/master/Prints/PRINT2-AWatch.png)
 
 # Contact info
-- [@OMatheusR](http://www.twitter.com/OMatheusR/)
-- [FaceMatheusR](http://www.facebook.com/FaceMatheusR)
+- [Twitter](http://www.twitter.com/OMatheusR/)
+- [Facebook](https://www.facebook.com/omatheusr)
 - [LinkedIn](https://br.linkedin.com/in/omatheusr)
